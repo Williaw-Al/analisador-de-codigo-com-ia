@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { analyzeCode } from './services/gemini';
-import './app.css'
+import './App.css'
 
 function App() {
   const [code, setCode] = useState('');
